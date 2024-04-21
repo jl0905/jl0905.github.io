@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html>
 <head>
   <title>My first styled page</title>
@@ -23,3 +23,28 @@
 
 <body>
 [etc.]test
+-->
+<!-- Creating a simple HTML button using the <button> tag -->
+<button type="button">Click Me</button>
+
+<!-- Adding some style to the button using CSS -->
+<style>
+  button {
+    background-color: green; /* setting the background color to green */
+    color: white; /* setting the text color to white */
+    border: none; /* removing the border */
+    padding: 10px 20px; /* adding some space around the text */
+    cursor: pointer; /* changing the mouse cursor to a pointer when hovering over the button */
+  }
+</style>
+
+<!-- Adding some functionality to the button using JavaScript -->
+<script>
+  // Getting the button element by its tag name
+  var button = document.getElementsByTagName("button")[0];
+  // Adding an event listener to the button that executes a function when the button is clicked
+  button.addEventListener("click", function() {
+    // Displaying an alert message
+    alert("You clicked the button!");
+  });
+</script>
